@@ -1,0 +1,19 @@
+The topic I am trying to convery through my figure is "The age distribution of first diagnose of various diseases". I would like to find which diseases are prevalent for people of different age, such as newborn, child, youth, adult, and old people. 
+
+By sorting the diseases with their humps in the order of age (from top to bottom corresponds to from newborn to old), we can gain many insights, including the following:
+
+1) The majority of Asthma happens to the child, whose body and immune system has not developed well enough. This is in line with our knowledge.
+2) In terms of heart condition, it not only happens to old people, but also happens to many newborns with heart defects.
+3) The COPD has the hump at Juvenile (around 20s), which could possible result from the youth starting to smoke cigrattes as smoking is considered as a big cause of COPD.
+4) The Kidney disease occurs to both youth and older people, but it is more popular to young people around 20s.
+5) The HIV/AIDS and Hepatitis both have a peak at the beginning of 20s. This is very much likely because of the increasing/unprotected sexual activities between young people. Thus, more education could be put for young people to prevent these disceases.
+6) The High blood pressure, Diabetes, and Cirrhosis tends to happen to people after their 40s. This could result from the change in their working and life style, such as type of food taken, less sports activities, more alcohol, etc.
+
+Here I chose the stacked density plots instead of histogram plot becasue the density plots are less clutter and less distracted than the histogram. It can convey the same idea but in a much clearer way. The hump of the density plot shows the where the majority cases locate at. 
+
+The color is chosen to be green to give the audience a positive sense because diseases are usually a sad and heavy topic. I hope to use the green color to raise people's emotion up.
+
+The diseases are sorted based on their humps' location. So it is clear to audience that from the top to bottom, the diseases move from child to old people. The gradient of the color also correspinds to the shifting on age. The lighter represents the young and the darker represents the old.
+
+The downside of this plot is that the density plots have crossed the 0 boundary and went into the negative side. This could confuse people. But this is because of the weakness of the density calculation and its smotthing behavior on the bounded data. Having a hard cut at 0 would solve the problem, but it will scarifice the smoothness of the curve and beatuy of the figure. So I decided to keep the way it is right now.
+
